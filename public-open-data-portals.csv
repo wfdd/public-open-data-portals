@@ -1,4 +1,4 @@
-country_code,country,url,software_platform,is_open_source,has_api,has_bulk_download,presiding_body,date_launched,resources,notes,last_updated
+country_code,country_name,url,software_platform,is_open_source,has_api,has_bulk_download,presiding_body,date_launched,resources,notes,last_updated
 AC,Ascension Island,N/A,,,,,,,,,2016-07-23
 AD,Andorra,,,,,,,,,,
 AE,United Arab Emirates,http://opendata.fcsa.gov.ae/,,no,no,no,en:Federal Competitiveness and Statistics Authority;ar:الهيئة الاتحادية للتنافسية والإحصاء,,,,2016-07-23
