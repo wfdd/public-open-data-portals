@@ -98,18 +98,18 @@ GT,Guatemala,http://www.mineco.gob.gt/datos-abiertos,,,,,,Appears to be offline,
 GU,Guam,N/A,,,,,,,2016-07-23
 GW,Guinea-Bissau,,,,,,,,
 GY,Guyana,,,,,,,,
-HK,Hong Kong SAR China,,,,,,,,
+HK,Hong Kong SAR China,https://data.gov.hk/,,,,,,,2016-07-23
 HM,Heard & McDonald Islands,N/A,,,,,,,2016-07-23
 HN,Honduras,,,,,,,,
 HR,Croatia,https://data.gov.hr/,CKAN,,,en:Ministry of Public Administration;hr:Ministarstvo uprave,http://data.europa.eu/euodp/en/about,,2016-07-23
 HT,Haiti,,,,,,,,
 HU,Hungary,,,,,,,,
 IC,Canary Islands,,,,,,,,
-ID,Indonesia,,,,,,,,
+ID,Indonesia,http://data.go.id/,,,,,,,2016-07-23
 IE,Ireland,https://data.gov.ie/data,CKAN,,,"en:Government Reform Unit, Dept of Public Expenditure & Reform",http://data.europa.eu/euodp/en/about,,2016-07-23
 IL,Israel,https://data.gov.il/,CKAN,,,,,,2016-07-23
 IM,Isle of Man,,,,,,,,
-IN,India,,,,,,,,
+IN,India,https://data.gov.in/,,,,,,,2016-07-23
 IO,British Indian Ocean Territory,N/A,,,,,,,2016-07-23
 IQ,Iraq,,,,,,,,
 IR,Iran,,,,,,,,
@@ -118,8 +118,8 @@ IT,Italy,http://www.dati.gov.it/,,yes,,en:Agency for Digital Italy;it:Agenzia pe
 JE,Jersey,N/A,,,,,,,2016-07-23
 JM,Jamaica,,,,,,,,
 JO,Jordan,,,,,,,,
-JP,Japan,,,,,,,,
-KE,Kenya,,,,,,,,
+JP,Japan,http://www.data.go.jp/,,,,,,,2016-07-23
+KE,Kenya,https://opendata.go.ke/,,,,en:ICT Authority,,,2016-07-23
 KG,Kyrgyzstan,,,,,,,,
 KH,Cambodia,,,,,,,,
 KI,Kiribati,,,,,,,,
@@ -141,7 +141,7 @@ LT,Lithuania,http://opendata.gov.lt/index.php?vars=/public/public/search,,,,,htt
 LU,Luxembourg,https://data.public.lu/en/,udata,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 LV,Latvia,,,,,,,,
 LY,Libya,,,,,,,,
-MA,Morocco,,,,,,,,
+MA,Morocco,http://data.gov.ma/fr,,,,,,,2016-07-23
 MC,Monaco,,,,,,,,
 MD,Moldova,http://data.gov.md/,CKAN,,,,,,2016-07-23
 ME,Montenegro,,,,,,,,
@@ -175,13 +175,13 @@ NO,Norway,http://data.norge.no/,,yes,,en:Agency for Public Management and eGover
 NP,Nepal,,,,,,,,
 NR,Nauru,,,,,,,,
 NU,Niue,,,,,,,,
-NZ,New Zealand,,,,,,,,
+NZ,New Zealand,https://data.govt.nz/,,,,,,,2016-07-23
 OM,Oman,,,,,,,,
 PA,Panama,,,,,,,,
 PE,Peru,http://www.datosabiertos.gob.pe/,,,,,,,2016-07-23
 PF,French Polynesia,N/A,,,,,,,2016-07-23
 PG,Papua New Guinea,,,,,,,,
-PH,Philippines,,,,,,,,
+PH,Philippines,http://data.gov.ph/,,,,,,,2016-07-23
 PK,Pakistan,,,,,,,,
 PL,Poland,https://danepubliczne.gov.pl/,CKAN,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 PM,St. Pierre & Miquelon,N/A,,,,,,,2016-07-23
@@ -203,7 +203,7 @@ SB,Solomon Islands,,,,,,,,
 SC,Seychelles,,,,,,,,
 SD,Sudan,,,,,,,,
 SE,Sweden,http://oppnadata.se/,CKAN,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
-SG,Singapore,,,,,,,,
+SG,Singapore,https://data.gov.sg/,,,,,,,2016-07-23
 SH,St. Helena,,,,,,,,
 SI,Slovenia,http://nio.gov.si/nio/,,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 SJ,Svalbard & Jan Mayen,,,,,,,,
