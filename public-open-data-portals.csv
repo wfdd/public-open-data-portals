@@ -85,7 +85,7 @@ GD,Grenada,,,,,,,,,,
 GE,Georgia,,,,,,,,,,
 GF,French Guiana,N/A,,,,,,,,,2016-07-23
 GG,Guernsey,N/A,,,,,,,,,2016-07-23
-GH,Ghana,,,,,,,,,,
+GH,Ghana,http://data.gov.gh/,,,,,en:National Information Technology Agency (NITA),,,,2016-07-23
 GI,Gibraltar,N/A,,,,,,,,,2016-07-23
 GL,Greenland,,,,,,,,,,
 GM,Gambia,,,,,,,,,,
@@ -229,13 +229,13 @@ TJ,Tajikistan,,,,,,,,,,
 TK,Tokelau,N/A,,,,,,,,,2016-07-23
 TL,Timor-Leste,,,,,,,,,,
 TM,Turkmenistan,,,,,,,,,,
-TN,Tunisia,,,,,,,,,,
+TN,Tunisia,http://www.data.gov.tn/,,,,,,,,Dormant?,2016-07-23
 TO,Tonga,,,,,,,,,,
 TR,Turkey,,,,,,,,,,
 TT,Trinidad & Tobago,http://data.gov.tt/,CKAN,,yes,,,,,Dormant?,2016-07-23
 TV,Tuvalu,,,,,,,,,,
 TW,Taiwan,http://data.gov.tw/,CKAN derivative?,,yes,,,,,,2016-07-23
-TZ,Tanzania,,,,,,,,,,
+TZ,Tanzania,http://opendata.go.tz/,CKAN,,yes,,"en:e-Government Agency, the National Bureau of Statistics and the National Archive Department",,,,2016-07-23
 UA,Ukraine,,,,,,,,,,
 UG,Uganda,,,,,,,,,,
 UM,U.S. Outlying Islands,N/A,,,,,,,,,2016-07-23
