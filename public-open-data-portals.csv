@@ -11,15 +11,15 @@ AO,Angola,,,,,,,,,
 AQ,Antarctica,N/A,,,,,,,,2016-07-23
 AR,Argentina,http://www.datos.gob.ar/,CKAN,yes:https://github.com/gobabiertoAR,yes,,en:Ministry for Modernization;es:Ministerio de Modernización,,,2016-07-23
 AS,American Samoa,N/A,,,,,,,,2016-07-23
-AT,Austria,https://www.data.gv.at/,,,yes,,,http://data.europa.eu/euodp/en/about,,2016-07-23
-AU,Australia,https://data.gov.au/,CKAN,,yes,,,,,2016-07-23
+AT,Austria,https://www.data.gv.at/,,apparently outdated:https://github.com/datagvat,yes,,,http://data.europa.eu/euodp/en/about,,2016-07-23
+AU,Australia,https://data.gov.au/,CKAN,yes:https://github.com/datagovau,yes,,,,,2016-07-23
 AW,Aruba,N/A,,,,,,,,2016-07-23
 AX,Åland Islands,N/A,,,,,,,,2016-07-23
 AZ,Azerbaijan,,,,,,,,,
 BA,Bosnia & Herzegovina,,,,,,,,,
 BB,Barbados,,,,,,,,,
 BD,Bangladesh,,,,,,,,,
-BE,Belgium,http://data.gov.be/en,,,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
+BE,Belgium,http://data.gov.be/en,,partially:https://github.com/Fedict/dcattools,,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 BF,Burkina Faso,,,,,,,,,
 BG,Bulgaria,https://opendata.government.bg/,CKAN,,yes,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 BH,Bahrain,,,,,,,,,
@@ -80,7 +80,7 @@ FM,Micronesia,,,,,,,,,
 FO,Faroe Islands,,,,,,,,,
 FR,France,http://www.data.gouv.fr/fr/,udata,yes:https://github.com/etalab,yes,,,http://data.europa.eu/euodp/en/about,,2016-07-23
 GA,Gabon,,,,,,,,,
-GB,United Kingdom,https://data.gov.uk/,CKAN,,site-wide:as provided by CKAN;thematic:https://data.gov.uk/data/api/,,en:Data team of the Cabinet Office,http://data.europa.eu/euodp/en/about,,2016-07-23
+GB,United Kingdom,https://data.gov.uk/,CKAN,yes:https://github.com/datagovuk,site-wide:as provided by CKAN;thematic:https://data.gov.uk/data/api/,per dataset:https://data.gov.uk/blog/data-packages-bulk-downloads,en:Data team of the Cabinet Office,http://data.europa.eu/euodp/en/about,,2016-07-23
 GD,Grenada,,,,,,,,,
 GE,Georgia,,,,,,,,,
 GF,French Guiana,N/A,,,,,,,,2016-07-23
@@ -92,13 +92,13 @@ GM,Gambia,,,,,,,,,
 GN,Guinea,,,,,,,,,
 GP,Guadeloupe,N/A,,,,,,,,2016-07-23
 GQ,Equatorial Guinea,,,,,,,,,
-GR,Greece,http://www.data.gov.gr/,CKAN,,yes,,en:Ministry of the Interior and Administrative Reconstruction;el:Yπουργείο Εσωτερικών και Διοικητικής Ανασυγκρότησης,http://data.europa.eu/euodp/en/about,,2016-07-23
+GR,Greece,http://www.data.gov.gr/,CKAN,no,yes,,en:Ministry of the Interior and Administrative Reconstruction;el:Yπουργείο Εσωτερικών και Διοικητικής Ανασυγκρότησης,http://data.europa.eu/euodp/en/about,,2016-07-23
 GS,South Georgia & South Sandwich Islands,N/A,,,,,,,,2016-07-23
 GT,Guatemala,http://www.mineco.gob.gt/datos-abiertos,,,,,,,Appears to be offline,2016-07-23
 GU,Guam,N/A,,,,,,,,2016-07-23
 GW,Guinea-Bissau,,,,,,,,,
 GY,Guyana,,,,,,,,,
-HK,Hong Kong SAR China,https://data.gov.hk/,,,,,,,,2016-07-23
+HK,Hong Kong SAR China,https://data.gov.hk/,,,,,en:Office of the Government Chief Information Officer,,,2016-07-23
 HM,Heard & McDonald Islands,N/A,,,,,,,,2016-07-23
 HN,Honduras,,,,,,,,,
 HR,Croatia,https://data.gov.hr/,CKAN,,yes,,en:Ministry of Public Administration;hr:Ministarstvo uprave,http://data.europa.eu/euodp/en/about,,2016-07-23
@@ -106,7 +106,7 @@ HT,Haiti,,,,,,,,,
 HU,Hungary,,,,,,,,,
 IC,Canary Islands,N/A,,,,,,,,2016-07-23
 ID,Indonesia,http://data.go.id/,,,,,,,,2016-07-23
-IE,Ireland,https://data.gov.ie/data,CKAN,,yes,,"en:Government Reform Unit, Dept of Public Expenditure & Reform",http://data.europa.eu/euodp/en/about,,2016-07-23
+IE,Ireland,https://data.gov.ie/data,CKAN,no,yes,,"en:Government Reform Unit, Department of Public Expenditure and Reform",http://data.europa.eu/euodp/en/about,,2016-07-23
 IL,Israel,https://data.gov.il/,CKAN,,yes,,,,,2016-07-23
 IM,Isle of Man,N/A,,,,,,,,2016-07-23
 IN,India,https://data.gov.in/,,,,,,,,2016-07-23
