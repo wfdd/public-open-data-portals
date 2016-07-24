@@ -45,7 +45,8 @@ Whether the portal provides a bulk download option for datasets.
 
 ### `licenses_used`
 
-A list of licenses the datasets are licensed under.
+A list of licenses the datasets are licensed under.  These can be mined from
+CKAN APIs.
 
 ### `presiding_body`
 
