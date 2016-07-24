@@ -43,6 +43,10 @@ Whether the portal provides an API.
 
 Whether the portal provides a bulk download option for datasets.
 
+### `licenses_used`
+
+A list of licenses the datasets are licensed under.
+
 ### `presiding_body`
 
 The name of the government agency that oversees the operation of the portal,
