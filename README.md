@@ -48,6 +48,16 @@ Whether the portal provides a bulk download option for datasets.
 The name of the government agency that oversees the operation of the portal,
 both in English and in the native language(s), if any.
 
+### `outsourced_development`
+
+Whether the government employed a private entity to develop the portal.  The
+contractor will often also be responsible for maintenance.
+
+### `received_consulting`
+
+Whether the government hired a private consultant to assist with the portal,
+broadly construed.
+
 ### `date_launched`
 
 The date when the portal was opened to the public.
@@ -69,3 +79,4 @@ Date when the row was last updated.
 * http://opengeocode.org/opendata/
 * http://dataportals.org/search
 * https://www.opendatasoft.com/a-comprehensive-list-of-all-open-data-portals-around-the-world/
+* http://data.europa.eu/euodp/en/about
