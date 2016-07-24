@@ -84,6 +84,10 @@ Anything you might like to make a note of.
 
 Date when the row was last updated.
 
+## License
+
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
 ## See also
 
 * http://opengeocode.org/opendata/
