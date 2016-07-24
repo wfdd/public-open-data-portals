@@ -92,7 +92,7 @@ GM,Gambia,,,,,,,,,,,,,
 GN,Guinea,,,,,,,,,,,,,
 GP,Guadeloupe,N/A,,,,,,,,,,,,2016-07-23
 GQ,Equatorial Guinea,,,,,,,,,,,,,
-GR,Greece,http://www.data.gov.gr/,CKAN,no,yes:http://www.data.gov.gr/api/3,,,en:Ministry of the Interior and Administrative Reconstruction;el:Yπουργείο Εσωτερικών και Διοικητικής Ανασυγκρότησης,,,,,,2016-07-23
+GR,Greece,http://www.data.gov.gr/,CKAN,no,yes:http://www.data.gov.gr/api/3,,,en:Ministry of the Interior and Administrative Reconstruction;el:Yπουργείο Εσωτερικών και Διοικητικής Ανασυγκρότησης,,,,,,2016-07-24
 GS,South Georgia & South Sandwich Islands,N/A,,,,,,,,,,,,2016-07-23
 GT,Guatemala,http://www.mineco.gob.gt/datos-abiertos,,,,,,,,,,,Appears to be offline,2016-07-23
 GU,Guam,N/A,,,,,,,,,,,,2016-07-23
@@ -107,16 +107,16 @@ HU,Hungary,,,,,,,,,,,,,
 IC,Canary Islands,N/A,,,,,,,,,,,,2016-07-23
 ID,Indonesia,http://data.go.id/,,,,,,,,,,,,2016-07-23
 IE,Ireland,https://data.gov.ie/data,CKAN,no,yes:https://data.gov.ie/api/3,,,"en:Government Reform Unit, Department of Public Expenditure and Reform",,,,,,2016-07-24
-IL,Israel,https://data.gov.il/,CKAN,,,,,,,,,,,2016-07-23
+IL,Israel,https://data.gov.il/,CKAN,,,,,,,,,,,2016-07-24
 IM,Isle of Man,N/A,,,,,,,,,,,,2016-07-23
 IN,India,https://data.gov.in/,,,,,,,,,,,,2016-07-23
 IO,British Indian Ocean Territory,N/A,,,,,,,,,,,,2016-07-23
 IQ,Iraq,,,,,,,,,,,,,
 IR,Iran,,,,,,,,,,,,,
 IS,Iceland,https://opingogn.is/,CKAN,,yes:https://opingogn.is/api/3,,,en:Registers Iceland;is:Þjóðskrá Íslands,,,,,,2016-07-24
-IT,Italy,http://www.dati.gov.it/,DKAN,,no:though there’s a http://www.dati.gov.it/data.json with what appears to be the metadata of the datasets,,,en:Agency for Digital Italy;it:Agenzia per l'Italia Digitale,,,,http://www.nucivic.com/dkan-showcase-dati-gov/,,2016-07-24
+IT,Italy,http://www.dati.gov.it/,DKAN,,no,of all the metadata:http://www.dati.gov.it/data.json,,en:Agency for Digital Italy;it:Agenzia per l'Italia Digitale,,,,http://www.nucivic.com/dkan-showcase-dati-gov/,,2016-07-24
 JE,Jersey,N/A,,,,,,,,,,,,2016-07-23
-JM,Jamaica,http://www.data.gov.jm/,DKAN,,no:though there’s a http://www.data.gov.jm/data.json with what appears to be the metadata of the datasets,,,,,,,,,2016-07-24
+JM,Jamaica,http://www.data.gov.jm/,DKAN,,no,of all the metadata:http://www.data.gov.jm/data.json,,,,,,,,2016-07-24
 JO,Jordan,,,,,,,,,,,,,
 JP,Japan,http://www.data.go.jp/,,,,,,,,,,,,2016-07-23
 KE,Kenya,https://opendata.go.ke/,Socrata,,yes:https://www.opendata.go.ke/resource/<resource-id>.json provides access to the data;no metadata API that I can see,,,en:ICT Authority,,,,,,2016-07-24
