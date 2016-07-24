@@ -1,4 +1,4 @@
-A catalogue of public national and supranational open data portals.
+A catalogue of public national and supranational [open data portals](https://ec.europa.eu/digital-single-market/en/open-data-portals).
 
 ## Aims and motivation
 
