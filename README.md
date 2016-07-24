@@ -46,7 +46,10 @@ Whether the portal provides a bulk download option for datasets.
 ### `presiding_body`
 
 The name of the government agency that oversees the operation of the portal,
-both in English and in the native language(s), if any.
+both in English and in the native language(s), if any.  This can be the
+competent authority as prescribed by law (e.g. a ministry) or a division of the
+competent authority delegated with the operation of the portal, if granularity
+is desired.
 
 ### `outsourced_development`
 
