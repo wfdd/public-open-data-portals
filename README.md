@@ -12,7 +12,9 @@ global scale.
 
 ## Fields
 
-Generally: enumerations should be interleaved with semicolons.
+Generally: enumerations should be interleaved with semicolons; and the leftmost
+colon wtihin a cell or an enumeration is assumed to be the separator of a
+key–value pair.
 
 ### `country_code`
 
@@ -37,7 +39,7 @@ license and in full.
 
 ### `has_api`
 
-Whether the portal provides an API.
+Whether the portal provides an API, plus the API endpoint.
 
 ### `has_bulk_download`
 
@@ -51,7 +53,7 @@ CKAN APIs.
 ### `presiding_body`
 
 The name of the government agency that oversees the operation of the portal,
-both in English and in the native language(s), if any.  This can be the
+both in English and in the native language(s).  This can be the
 competent authority as prescribed by law (e.g. a ministry) or a division of the
 competent authority delegated with the operation of the portal, if granularity
 is desired.
