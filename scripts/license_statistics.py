@@ -68,7 +68,7 @@ async def gather_countries(data, p):
 
 def main():
     loop = asyncio.get_event_loop()
-    fields, rows = read_csv('public-open-data-portals.csv')
+    fields, rows = read_csv('portals.csv')
     today = dt.date.today().isoformat()
 
     ckan_apis = {r['country_code']: r['has_api'].split(';')[0].partition(':')[-1]
