@@ -4,70 +4,78 @@
 import asyncio
 import csv
 import datetime as dt
+import functools as ft
 import io
 
 import aiohttp
 from logbook import StderrHandler as StderrLogger, error
 
 
-def extract_api_endpoints():
-    with open('public-open-data-portals.csv') as file:
+def read_csv(filename):
+    with open(filename) as file:
         fields = next(csv.reader(file))
-    with open('public-open-data-portals.csv') as file:
-        rows = tuple(csv.DictReader(file))
-    return (fields,
-            rows,
-            tuple({**r, 'api_endpoint': r['has_api'].split(';')[0]
-                                                    .partition(':')[-1]}
-                  for r in rows if '/api/3' in r['has_api']))
+        return fields, tuple(csv.DictReader(file, fieldnames=fields))
 
 
-async def get_license_usage(endpoint, license, s, p):
+async def get_license_usage(api_endpoint, license, s, p):
+    resource_url = api_endpoint + '/action/package_search'
     try:
         with aiohttp.Timeout(30):
-            async with p, s.get(endpoint + '/action/package_search',
+            async with p, s.get(resource_url,
                                 params={'q': 'license_id:' + license}) as resp:
                 count = (await resp.json())['result']['count']
     except Exception as e:
-        error(endpoint + '/action/package_search: ' + repr(e))
+        error('{}: {!r}', resource_url, e)
         raise
-    print(endpoint + '/action/package_search', license, count)
+    print(resource_url, license, count)
     return license, count
 
 
-async def gather_country_statistics(data, s, p):
+async def gather_country_statistics(country_code, api_endpoint, s, p):
     try:
         with aiohttp.Timeout(30):
-            async with p, s.get(data['api_endpoint'] + '/action/license_list') \
-                    as resp:
-                licenses = tuple(i['id'] for i in (await resp.json())['result'])
+            if country_code == 'US':
+                # The 'license_list' action isn't available for the US
+                resource_url = api_endpoint.replace('3', '2') + '/rest/licenses'
+                async with p, s.get(resource_url) as resp:
+                    if resp.status != 200:
+                        raise ValueError('Received error code', resp.status)
+                    licenses = tuple(i['id'] for i in (await resp.json()))
+            else:
+                resource_url = api_endpoint + '/action/license_list'
+                async with p, s.get(resource_url) as resp:
+                    if resp.status != 200:
+                        raise ValueError('Received error code', resp.status)
+                    licenses = tuple(i['id'] for i in (await resp.json())['result'])
     except Exception as e:
-        error(data['api_endpoint'] + '/action/license_list: ' + repr(e))
+        error('{}: {!r}', resource_url, e)
         counts = ()
     else:
         try:
-            counts = await asyncio.gather(*(get_license_usage(data['api_endpoint'], i, s, p)
+            counts = await asyncio.gather(*(get_license_usage(api_endpoint, i, s, p)
                                             for i in licenses))
         except:
             counts = ()
-    return (data['country_code'], counts)
+    return country_code, counts
 
 
 async def gather_countries(data, p):
     with aiohttp.ClientSession(connector=aiohttp.TCPConnector(use_dns_cache=True)) \
             as s:
-        return await asyncio.gather(*(gather_country_statistics(i, s, p)
-                                      for i in data))
+        return dict(await asyncio.gather(*(gather_country_statistics(*i, s, p)
+                                           for i in data.items())))
 
-if __name__ == '__main__':
+
+def main():
     loop = asyncio.get_event_loop()
-
-    fields, rows, rows_with_ckan_apis = extract_api_endpoints()
-    with StderrLogger():
-        licenses = dict(loop.run_until_complete(gather_countries(
-            rows_with_ckan_apis, asyncio.Semaphore(20))))
-    new_rows = []
+    fields, rows = read_csv('public-open-data-portals.csv')
     today = dt.date.today().isoformat()
+
+    ckan_apis = {r['country_code']: r['has_api'].split(';')[0].partition(':')[-1]
+                 for r in rows if '/api/3' in r['has_api']}
+    licenses = loop.run_until_complete(gather_countries(ckan_apis,
+                                                        asyncio.Semaphore(20)))
+    new_rows = []
     for row in rows:
         if row['country_code'] in licenses:
             country_licenses = licenses[row['country_code']]
@@ -76,11 +84,21 @@ if __name__ == '__main__':
                                                            key=lambda i: i[1],
                                                            reverse=True)
                                         if int(c) > 0)
-            row = {**row,
-                   'licenses_used': country_licenses, 'last_updated': today}
+            row = {**row, 'licenses_used': country_licenses, 'last_updated': today}
         new_rows.append(row)
     buffer = io.StringIO()
     writer = csv.DictWriter(buffer, fields)
     writer.writeheader()
     writer.writerows(new_rows)
     print(buffer.getvalue())
+
+    # all_licenses = sorted(ft.reduce(set.union,
+    #                                 ((n.lower() for n, c in v if int(c) > 0)
+    #                                  for v in licenses.values()),
+    #                                 set()))
+    # print(all_licenses)
+
+
+if __name__ == '__main__':
+    with StderrLogger():
+        main()
