@@ -75,32 +75,33 @@ def main():
                  for r in rows if '/api/3' in r['has_api']}
     licenses = loop.run_until_complete(gather_countries(ckan_apis,
                                                         asyncio.Semaphore(20)))
-    new_rows = []
-    for row in rows:
-        if row['country_code'] in licenses:
-            country_licenses = licenses[row['country_code']]
-            country_licenses = ';'.join('{}[{}]'.format(n, c)
-                                        for n, c in sorted(country_licenses,
-                                                           key=lambda i: i[1],
-                                                           reverse=True)
-                                        if int(c) > 0)
-            row = {**row, 'licenses_used': country_licenses, 'last_updated': today}
-        new_rows.append(row)
-    buffer = io.StringIO()
-    writer = csv.DictWriter(buffer, fields)
-    writer.writeheader()
-    writer.writerows(new_rows)
-    print(buffer.getvalue())
+    # new_rows = []
+    # for row in rows:
+    #     if row['country_code'] in licenses:
+    #         country_licenses = licenses[row['country_code']]
+    #         country_licenses = ';'.join('{}[{}]'.format(n, c)
+    #                                     for n, c in sorted(country_licenses,
+    #                                                        key=lambda i: i[1],
+    #                                                        reverse=True)
+    #                                     if int(c) > 0)
+    #         row = {**row, 'licenses_used': country_licenses, 'last_updated': today}
+    #     new_rows.append(row)
+    # buffer = io.StringIO()
+    # writer = csv.DictWriter(buffer, fields)
+    # writer.writeheader()
+    # writer.writerows(new_rows)
+    # print(buffer.getvalue())
 
     all_licenses = sorted(ft.reduce(set.union,
                                     ((n.lower() for n, c in v if int(c) > 0)
                                      for v in licenses.values()),
                                     set()))
     buffer = io.StringIO()
-    writer = csv.DictWriter(buffer, ('country_code', *all_licenses))
+    writer = csv.DictWriter(buffer, ('country_code', *all_licenses, 'last_updated'))
     writer.writeheader()
-    writer.writerows({'country_code': k, **{n.lower(): c for n, c in v if int(c) > 0}}
-                     for k, v in licenses.items())
+    writer.writerows({'country_code': k, 'last_updated': today,
+                      **{n.lower(): c for n, c in v if int(c) > 0}}
+                     for k, v in sorted(licenses.items()))
     print(buffer.getvalue())
 
 
