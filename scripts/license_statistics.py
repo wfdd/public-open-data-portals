@@ -92,11 +92,16 @@ def main():
     writer.writerows(new_rows)
     print(buffer.getvalue())
 
-    # all_licenses = sorted(ft.reduce(set.union,
-    #                                 ((n.lower() for n, c in v if int(c) > 0)
-    #                                  for v in licenses.values()),
-    #                                 set()))
-    # print(all_licenses)
+    all_licenses = sorted(ft.reduce(set.union,
+                                    ((n.lower() for n, c in v if int(c) > 0)
+                                     for v in licenses.values()),
+                                    set()))
+    buffer = io.StringIO()
+    writer = csv.DictWriter(buffer, ('country_code', *all_licenses))
+    writer.writeheader()
+    writer.writerows({'country_code': k, **{n.lower(): c for n, c in v if int(c) > 0}}
+                     for k, v in licenses.items())
+    print(buffer.getvalue())
 
 
 if __name__ == '__main__':

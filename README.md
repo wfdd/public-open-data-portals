@@ -16,41 +16,44 @@ Generally: enumerations should be interleaved with semicolons; and the leftmost
 colon wtihin a cell or an enumeration is assumed to be the separator of a
 key–value pair.
 
-### `country_code`
+### portals.csv
+
+A general overview of each portal.
+
+#### `country_code`
 
 The ISO 3166-1:2 country code.
 
-### `country_name`
+#### `country_name`
 
 The name of the country or territory in English.
 
-### `url`
+#### `url`
 
 The portal's canonical URL.
 
-### `software_platform`
+#### `software_platform`
 
 The name of the (user-facing) software package the portal is based on, if any.
 
-### `is_open_source`
+#### `is_open_source`
 
 Whether the source code has been made publicly available under a free-software
 license and in full.
 
-### `has_api`
+#### `has_api`
 
-Whether the portal provides an API, plus the API endpoint.
+Whether the portal provides an API.
 
-### `has_bulk_download`
+#### `has_bulk_download`
 
 Whether the portal provides a bulk download option for datasets.
 
-### `licenses_used`
+#### `dataset_total`
 
-A list of licenses the datasets are licensed under.  These can be mined from
-CKAN APIs.
+The total number of datasets as of `last_updated`.
 
-### `presiding_body`
+#### `presiding_body`
 
 The name of the government agency that oversees the operation of the portal,
 both in English and in the native language(s).  This can be the
@@ -58,31 +61,40 @@ competent authority as prescribed by law (e.g. a ministry) or a division of the
 competent authority delegated with the operation of the portal, if granularity
 is desired.
 
-### `outsourced_development`
+#### `outsourced_development`
 
 Whether the government employed a private entity to develop the portal.  The
 contractor will often also be responsible for maintenance.
 
-### `received_consulting`
+#### `received_consulting`
 
 Whether the government hired a private consultant to assist with the portal,
 broadly construed.
 
-### `date_launched`
+#### `date_launched`
 
 The date when the portal was opened to the public.
 
-### `resources`
+#### `resources`
 
 Reading material.
 
-### `notes`
+#### `notes`
 
 Anything you might like to make a note of.
 
-### `last_updated`
+#### `last_updated`
 
 Date when the row was last updated.
+
+### licenses.csv
+
+Dataset breakdown by country and license.  The license counts can be mined from
+CKAN APIs.
+
+#### `country_code`
+
+The ISO 3166-1:2 country code.
 
 ## License
 
