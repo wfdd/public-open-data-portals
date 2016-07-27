@@ -45,11 +45,15 @@ license and in full.
 
 Whether the portal provides an API.
 
+#### `api_endpoint`
+
+The API endpoint, provided it `has_api`.
+
 #### `has_bulk_download`
 
 Whether the portal provides a bulk download option for datasets.
 
-#### `dataset_total`
+#### `total_datasets`
 
 The total number of datasets as of `last_updated`.
 
