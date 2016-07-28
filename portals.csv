@@ -21,7 +21,7 @@ BB,Barbados,,,,,,,,,,,,,,,,,
 BD,Bangladesh,,,,,,,,,,,,,,,,,
 BE,Belgium,http://data.gov.be/en,,partially,https://github.com/Fedict/dcattools,,,,,,,,,,,,,2016-07-23
 BF,Burkina Faso,,,,,,,,,,,,,,,,,
-BG,Bulgaria,https://opendata.government.bg/,CKAN,,,yes,https://opendata.government.bg/api/3,yes,=,,716,,,,,,,2016-07-28
+BG,Bulgaria,https://opendata.government.bg/,CKAN,,,yes,https://opendata.government.bg/api/3,yes,=,,717,,,,,,,2016-07-28
 BH,Bahrain,,,,,,,,,,,,,,,,,
 BI,Burundi,,,,,,,,,,,,,,,,,
 BJ,Benin,,,,,,,,,,,,,,,,,
@@ -30,7 +30,7 @@ BM,Bermuda,N/A,,,,,,,,,,,,,,,,2016-07-23
 BN,Brunei,https://www.data.gov.bn/,,,,,,,,,,,,,,http://www.bt.com.bn/news-national/2014/11/28/towards-online-future-new-egnc-website,,2016-07-23
 BO,Bolivia,,,,,,,,,,,,,,,,,
 BQ,Caribbean Netherlands,N/A,,,,,,,,,,,,,,,,2016-07-23
-BR,Brazil,http://dados.gov.br/,CKAN,,,yes,http://dados.gov.br/api/3,no,,,,,,,,,,2016-07-28
+BR,Brazil,http://dados.gov.br/,CKAN,,,yes,http://dados.gov.br/api/3,no,,,1124,,,,,,,2016-07-28
 BS,Bahamas,,,,,,,,,,,,,,,,,
 BT,Bhutan,,,,,,,,,,,,,,,,,
 BV,Bouvet Island,N/A,,,,,,,,,,,,,,,,2016-07-23
@@ -57,7 +57,7 @@ CW,Curaçao,N/A,,,,,,,,,,,,,,,,2016-07-23
 CX,Christmas Island,N/A,,,,,,,,,,,,,,,,2016-07-23
 CY,Cyprus,http://www.data.gov.cy/,In-house,no,,no,,,,no,964,"en:Public Administration and Personnel Department (PAPD), Ministry of Finance;el:Τμήμα Δημόσιας Διοίκησης και Προσωπικού (ΤΔΔΠ) του Υπουργείου Οικονομικών",no,yes:Deloitte was appointed by the European Commission ‘to … guide the departments in order to publish their data on the National Open Data Portal’ [http://www2.deloitte.com/cy/en/pages/about-deloitte/articles/innovating-with-open-data.html],,,,2016-07-28
 CZ,Czech Republic,http://opendata.cz/,CKAN,,,yes,http://linked.opendata.cz/api/3,yes,=,,73,,,,,,,2016-07-28
-DE,Germany,https://www.govdata.de/,CKAN blend,yes,https://github.com/GovDataOfficial,yes,https://www.govdata.de/ckan/api/3,,,"daily metadata dump, see https://www.govdata.de/daten/-/details/govdata-metadatenkatalog",,,,,,,,2016-07-28
+DE,Germany,https://www.govdata.de/,CKAN blend,yes,https://github.com/GovDataOfficial,yes,https://www.govdata.de/ckan/api/3,,,"daily metadata dump, see https://www.govdata.de/daten/-/details/govdata-metadatenkatalog",9924,,,,,,,2016-07-28
 DG,Diego Garcia,N/A,,,,,,,,,,,,,,,,2016-07-23
 DJ,Djibouti,,,,,,,,,,,,,,,,,
 DK,Denmark,http://www.portal.opendata.dk/,CKAN,,,yes,http://www.portal.opendata.dk/api/3,yes,=,,620,Various local authorities,,,,,,2016-07-28
@@ -65,7 +65,7 @@ DM,Dominica,,,,,,,,,,,,,,,,,
 DO,Dominican Republic,,,,,,,,,,,,,,,,,
 DZ,Algeria,,,,,,,,,,,,,,,,,
 EA,Ceuta & Melilla,N/A,,,,,,,,,,,,,,,,2016-07-23
-EC,Ecuador,http://sni.gob.ec/datosabiertos,CKAN,,,yes,http://catalogo.datosabiertos.gob.ec/api/3,yes,=,,65,,,,,,,2016-07-28
+EC,Ecuador,http://sni.gob.ec/datosabiertos,CKAN,,,yes,http://catalogo.datosabiertos.gob.ec/api/3,yes,=,,67,,,,,,,2016-07-28
 EE,Estonia,http://www.opendata.ee/,,,,,,,,,,,,,,,,2016-07-23
 EG,Egypt,,,,,,,,,,,,,,,,,
 EH,Western Sahara,,,,,,,,,,,,,,,,,
@@ -80,7 +80,7 @@ FM,Micronesia,,,,,,,,,,,,,,,,,
 FO,Faroe Islands,,,,,,,,,,,,,,,,,
 FR,France,http://www.data.gouv.fr/fr/,udata,yes,https://github.com/etalab,yes,https://www.data.gouv.fr/api/1/,yes,=,,,,,,,,,2016-07-28
 GA,Gabon,,,,,,,,,,,,,,,,,
-GB,United Kingdom,https://data.gov.uk/,CKAN,yes,https://github.com/datagovuk,yes,https://data.gov.uk/api/3,no,,per dataset: https://data.gov.uk/blog/data-packages-bulk-downloads,38471,en:Data team of the Cabinet Office,,,,,Has thematic APIs: https://data.gov.uk/data/api/,2016-07-28
+GB,United Kingdom,https://data.gov.uk/,CKAN,yes,https://github.com/datagovuk,yes,https://data.gov.uk/api/3,no,,per dataset: https://data.gov.uk/blog/data-packages-bulk-downloads,38473,en:Data team of the Cabinet Office,,,,,Has thematic APIs: https://data.gov.uk/data/api/,2016-07-28
 GD,Grenada,,,,,,,,,,,,,,,,,
 GE,Georgia,,,,,,,,,,,,,,,,,
 GF,French Guiana,N/A,,,,,,,,,,,,,,,,2016-07-23
@@ -170,7 +170,7 @@ NE,Niger,,,,,,,,,,,,,,,,,
 NF,Norfolk Island,N/A,,,,,,,,,,,,,,,,2016-07-23
 NG,Nigeria,,,,,,,,,,,,,,,,,
 NI,Nicaragua,,,,,,,,,,,,,,,,,
-NL,Netherlands,https://data.overheid.nl/,CKAN,,,yes,https://data.overheid.nl/data/api/3,no,,,7593,en:Ministry of the Interior and Kingdom Relations;nl:Ministerie van Binnenlandse Zaken en Koninkrijksrelaties,,,,,,2016-07-28
+NL,Netherlands,https://data.overheid.nl/,CKAN,,,yes,https://data.overheid.nl/data/api/3,no,,,7512,en:Ministry of the Interior and Kingdom Relations;nl:Ministerie van Binnenlandse Zaken en Koninkrijksrelaties,,,,,,2016-07-28
 NO,Norway,http://data.norge.no/,,,,yes,http://hotell.difi.no/api/,,,,,en:Agency for Public Management and eGovernment;no:Direktoratet for forvaltning og IKT (Difi),,,,,,2016-07-24
 NP,Nepal,,,,,,,,,,,,,,,,,
 NR,Nauru,,,,,,,,,,,,,,,,,
