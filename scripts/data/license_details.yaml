@@ -1,0 +1,6333 @@
+AR:
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ODC-PDDL-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence 1.0
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ODbL-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License 1.0
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ODC-BY-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Open Data Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License 1.0
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: CC0-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC0 1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: CC-BY-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: CC-BY-SA-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: GFDL-1.3-no-cover-texts-no-invariant-sections
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Free Software Foundation
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License 1.3 with no cover texts and no invariant sections
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-pd
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-at
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: OGL-UK-2.0
+  is_generic: false
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: UK Government
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Government Licence 2.0 (United Kingdom)
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: Creative Commons
+  id: CC-BY-NC-4.0
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: rejected
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution-NonCommercial 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-nc
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-closed
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Not Open)
+  url: ''
+AT:
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution License
+  url: https://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-at-30
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Namensnennung 3.0 Österreich
+  url: https://creativecommons.org/licenses/by/3.0/at/deed.de
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0
+    Österreich
+  url: https://creativecommons.org/licenses/by-sa/3.0/at/deed.en
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-pd
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Public Domain
+  url: https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Bundesnormen&Dokumentnummer=NOR12024408&ResultFunctionToken=a35ee95a-152f-4b8a-9450-88462c6d1a33&Position=1&Kundmachungsorgan=&Index=&Titel=&Gesetzesnummer=&VonArtikel=&BisArtikel=&VonParagraf=7&BisParagraf=7&VonAnlage=&BisAnlage=&Typ=&Kundmachungsnummer=&Unterzeichnungsdatum=&FassungVom=30.03.2016&VonInkrafttretedatum=&BisInkrafttretedatum=&VonAusserkrafttretedatum=&BisAusserkrafttretedatum=&NormabschnittnummerKombination=Und&ImRisSeit=Undefined&ResultPageSize=100
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa-20
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 2.0
+  url: https://creativecommons.org/licenses/by-sa/2.0/
+AU:
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution 3.0 Australia
+  url: http://creativecommons.org/licenses/by/3.0/au/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution 4.0 International
+  url: http://creativecommons.org/licenses/by/4.0
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike 3.0 Australia
+  url: http://creativecommons.org/licenses/by-sa/3.0/au/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-nc
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial 3.0 Australia
+  url: http://creativecommons.org/licenses/by-nc/3.0/au/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: pdm
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Public Domain Mark
+  url: http://creativecommons.org/publicdomain/mark/1.0/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: oecd-data
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: OECD Data
+  url: http://www.oecd.org/termsandconditions/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-nc
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-forsale
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (available for purchase)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-unpublished
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (unpublished)
+  url: ''
+BG:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Лицензът не е уточнен.
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Лиценз за Предоставяне на Обществено Достояние (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Лиценз за Отворени Бази Данни (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Лиценз за Признание
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Признание
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Признание, Споделяне на споделеното
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Лиценз за свободна документация
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Друг (отворен лиценз)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Друг (Обществено Достояние)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Друг (Признание)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Отворен Правителствен Лиценз на Обединеното Кралство (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Некомерсиален лиценз (Всичко)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Друг (некомерсиален лиценз)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Друг (не отворен лиценз)
+  url: ''
+BR:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licença Não Especificada
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licença e Dedicação ao Domínio Público do Open Data Commons (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licença Aberta para Bases de Dados (ODbL) do Open Data Commons
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licença de Atribuição do Open Data Commons
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Atribuição
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Atribuição e Compartilhamento pela mesma Licença
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licença GNU para Documentação Livre
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Outra (Aberta)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Outra (Domínio Público)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Outra (Atribuição)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Government Licence do Reino Unido (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Não-Comercial (Qualquer)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Outra (Não-Comercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Outra (Não Aberta)
+  url: ''
+CA:
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ca-ogl-lgo
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Government Licence - Canada
+  title_fra: Licence du gouvernement ouvert - Canada
+  url: http://open.canada.ca/en/open-government-licence-canada
+  url_fra: http://open.canada.ca/fr/licence-du-gouvernement-ouvert-canada
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ca-odla-aldg
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Data Licence Agreement - Office of the Commissioner of Lobbying
+  title_fra: Accord de licence de données libres - Commissariat au lobbying
+  url: http://ocl-cal.gc.ca/eic/site/012.nsf/eng/00873.html
+  url_fra: http://ocl-cal.gc.ca/eic/site/012.nsf/fra/00873.html
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ca-cihi-icis
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Government Licence - Canadian Institute for Health Information
+  title_fra: Licence du gouvernement ouvert - Institut canadien d'information sur
+    la santé
+  url: http://www.cihi.ca/cihi-ext-portal/docx/internet/OPEN_GOV_LICENCE_CIHI_EN
+  url_fra: http://www.cihi.ca/cihi-ext-portal/docx/internet/OPEN_GOV_LICENCE_CIHI_FR
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ca-rflo-drlf
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Reproduction of Federal Laws Order
+  title_fra: Décret sur la reproduction de la législation fédérale et des décisions
+    des tribunaux de constitution fédérale
+  url: http://laws-lois.justice.gc.ca/eng/regulations/SI-97-5/FullText.html
+  url_fra: http://laws-lois.justice.gc.ca/fra/reglements/TR-97-5/TexteComplet.html
+CH:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Lizenz nicht angegeben
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Andere (Offen)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Andere (gemeinfrei)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Andere (Namensnennung)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Alle)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Andere (nicht-kommerziell)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Andere (nicht offen)
+  url: ''
+CL:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: No se especificó la licencia
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Abierta)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Atribución)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Cualquiera)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No comercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No abierta)
+  url: ''
+CY:
+- Creative Commons Attribution 4.0 International (CC BY 4.0)
+- Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+CZ:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Nebyla specifikována licence
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Uveďte autora
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Uveďte autora-Zachovejte licenci
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Ostatní (Otevřená licence)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Ostatní (Public Domain - volné dílo)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Ostatní (Licence s přiznáním autorství)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Neužívejte dílo komerčně (jakákoli takováto CC licence)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Ostatní (Licence pro nekomerční využití)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Ostatní (Uzavřená licence)
+  url: ''
+DE:
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: dl-de-by-1.0
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Datenlizenz Deutschland Namensnennung 1.0
+  url: https://www.govdata.de/dl-de/by-1-0
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: dl-de-by-2.0
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Datenlizenz Deutschland Namensnennung 2.0
+  url: https://www.govdata.de/dl-de/by-2-0
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: official-work
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Amtliches Werk, lizenzfrei nach §5 Abs. 1 UrhG
+  url: http://www.gesetze-im-internet.de/urhg/__5.html
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geonutzv-de-2013-03-19
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes
+  url: http://www.geodatenzentrum.de/docpdf/geonutzv.pdf
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Namensnennung (CC-BY)
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Namensnennung (CC BY 4.0)
+  url: http://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-zero
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Zero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC-BY-SA)
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Attribution Weitergabe unter gleichen Bedingungen (CC BY-SA
+    4.0)
+  url: http://creativecommons.org/licenses/by-sa/4.0/
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-odbl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Namensnennung
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-pddl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: approved
+  status: active
+  title: Andere freie Lizenz
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-nc
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Nicht-Kommerziell (CC-NC)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by-nc-4.0
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Nicht-Kommerziell (CC BY-NC 4.0)
+  url: http://creativecommons.org/licenses/by-nc/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by-nd
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Keine Bearbeitung (CC-BY-ND)
+  url: http://creativecommons.org/licenses/by-nd/3.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by-nd-4.0
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Keine Bearbeitung (CC BY-ND)
+  url: http://creativecommons.org/licenses/by-nd/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: dl-de-by-nc-1.0
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Datenlizenz Deutschland Namensnennung nicht-kommerziell - Version 1.0
+  url: https://www.govdata.de/dl-de/by-nc-1-0
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: dl-de-zero-2.0
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: approved
+  status: active
+  title: Datenlizenz Deutschland – Zero – Version 2.0
+  url: https://www.govdata.de/dl-de/zero-2-0
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2.1-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1.2.1 Open-räumlich und zeitlich unbeschränkte Einräumung aller
+    Nutzungsrechte
+  url: http://www.geolizenz.org/modules/geolizenz/docs/1.2.1/GeoLizenz_V1.2.1_Open_082213_DE.pdf
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-1a
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 Ia-kommerziell-Weiterverarbeitung-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-1b
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 Ib-nicht-kommerziell-Weiterverarbeitung-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-2a
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IIa-kommerziell-keine Weiterverarbeitung-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-2b
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IIb-nicht-kommerziell-keine Weiterverarbeitung-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-3a
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IIIa-kommerziell-Weiterverarbeitung-nicht-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-3b
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IIIb-nicht-kommerziell-Weiterverarbeitung-nicht-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-4a
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IVa-kommerziell-keine Weiterverarbeitung-nicht-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geolizenz-v1.2-4b
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: GeoLizenz V1-2 IVb-nicht-kommerziell-keine Weiterverarbeitung-nicht-oeffentliche_Netzwerke
+  url: http://www.geolizenz.org
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: apache
+  is_okd_compliant: false
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: approved
+  status: active
+  title: Apache Lizenz
+  url: http://www.apache.org/licenses
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: app_commercial
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Andere kommerzielle Lizenz
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: app_freeware
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Andere kostenfreie Lizenz
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: app_opensource
+  is_okd_compliant: false
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: approved
+  status: active
+  title: Andere Open Source Lizenz
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: bsd-license
+  is_okd_compliant: false
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: approved
+  status: active
+  title: BSD Lizenz
+  url: http://www.opensource.org/licenses/bsd-license.php
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: gfdl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: gpl-3.0
+  is_okd_compliant: false
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: approved
+  status: active
+  title: GNU General Public License version 3.0 (GPLv3)
+  url: http://www.opensource.org/licenses/gpl-3.0.html
+- domain_content: false
+  domain_data: false
+  domain_software: true
+  family: ''
+  id: mozilla
+  is_okd_compliant: false
+  is_osi_compliant: true
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: approved
+  status: active
+  tags: []
+  title: Mozilla Public License 1.0 (MPL)
+  url: http://www.mozilla.org/MPL
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: other-closed
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Andere eingeschränkte Lizenz
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: geonutz-be-2013-10-01
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Nutzungsbestimmungen für die Bereitstellung von Geodaten des Landes Berlin
+  url: http://www.stadtentwicklung.berlin.de/geoinformation/download/nutzIII.pdf
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-pdm-1.0
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: ' Public Domain Mark 1.0 (PDM)'
+  url: http://creativecommons.org/publicdomain/mark/1.0/
+DK:
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: opendatadk
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: opendata.dk
+  url: http://portal.opendata.dk/dataset/open-data-dk-licens
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: aarhus-license
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Aarhus licens
+  url: http://www.odaa.dk/base/image/Vilk%C3%A5r%20for%20brug%20af%20danske%20offentlige%20data%20-%20Aarhus%20Kommune.%20docx.pdf
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Andet (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Andet (Attribution)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+EC:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: No se especificó la licencia
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Abierta)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Atribución)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Cualquiera)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No comercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No abierta)
+  url: ''
+FI:
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-pddl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-odbl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-zero
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: gfdl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-pd
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-at
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: uk-ogl
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-nc
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-nc
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-closed
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-zero-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero 1.0
+  url: http://creativecommons.org/publicdomain/zero/1.0/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution 4.0
+  url: http://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-4-fi
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Nimeä 4.0
+  url: http://creativecommons.org/licenses/by/4.0/deed.fi
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: hri-tietoaineistot-lisenssi-nimea
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: HRI - tietoaineistojen lisenssi - nimeä
+  url: http://www.hri.fi/lisenssit/hri-nimea/
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ilmoitettumuualla
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Lisenssi ilmoitettu tietoaineiston ylläpitäjän palvelussa
+  url: http://www.hri.fi/lisenssit
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: helsinkikanava-opendata-tos
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Helsinkikanava Open Data käyttöehdot
+  url: http://open.helsinkikanava.fi/tos.html
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: helsinkikanava-opendata-tos
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Helsinkikanava Open Data käyttöehdot
+  url: http://open.helsinkikanava.fi/tos.html
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa-1-fi
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Creative Commons Nimeä-Tarttuva 1.0 Suomi (CC BY-SA 1.0)
+  url: http://creativecommons.org/licenses/by-sa/1.0/fi/
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: kmo-aluejakorajat
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: KMO aluejakorajojen vektoriaineistojen käyttöehdot
+  url: http://www.hri.fi/lisenssit/kmo-aluejakorajat/
+GB:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+GR:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Μη καθορισμένη άδεια
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Αναφορά
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Αναφορά - Παρόμοια διανομή
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άδεια Ελεύθερης Τεκμηρίωσης GNU
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άλλο (Ανοιχτό)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άλλο (Δημόσιο Πεδίο)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άλλο (Χαρακτηριστικό)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Μη Εμπορική Χρήση
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άλλο (Μη εμπορικό)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Άλλο (Κλειστό)
+  url: ''
+HR:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/
+IE:
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  status: active
+  title: Creative Commons Attribution 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: psi
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Public Sector Information
+  status: active
+  title: Standard Irish PSI Licence (CC-BY 4.0)
+  url: http://psi.gov.ie/
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-at
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  status: active
+  title: Creative Commons Attribution Share-Alike 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+IS:
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: is-ogl
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Leiðbeiningar um endurnot
+  url: http://opingogn.is/pages/notkunarleidbeiningar
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: is-fjarsysla-opingogn
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Opin Gögn - Fjársýsla ríkisins
+  url: http://opingogn.is/fjarsysla-opingogn-leyfisskilmalar.html
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: is-stadfangaskra-thjodskra
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Staðfangaskrá - Þjóðskrá Íslands
+  url: http://opingogn.is/stadfangaskra-skilmalar.html
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-pddl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-odbl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-zero
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: gfdl
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-pd
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-at
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: cc-nc
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-nc
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-closed
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+LK:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+MD:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Licența nu este specificată
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Altă (Deschisă)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Altă (Domeniu Public)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Altă (Atribuire)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Altă (Ne comercială)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Altă (Nu este Deschisă)
+  url: ''
+MX:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: No se especificó la licencia
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Abierta)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (Atribución)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Cualquiera)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No comercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Otra (No abierta)
+  url: ''
+MY:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: License not specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Other (Not Open)
+  url: ''
+NL:
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_okd_compliant: true
+  maintainer: data.overheid.nl
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Licentie onbekend
+  url: http://data.overheid.nl/licenties/licentie-onbekend
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: publiek-domein
+  is_okd_compliant: true
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Publiek Domein
+  url: http://creativecommons.org/publicdomain/mark/1.0/deed.nl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-0
+  is_okd_compliant: true
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC-0
+  url: http://creativecommons.org/publicdomain/zero/1.0/deed.nl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: geo-gedeeld
+  is_okd_compliant: true
+  maintainer: Geonovum
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Geo Gedeeld licentie
+  url: http://geogedeeld.geonovum.nl/
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-by
+  is_okd_compliant: true
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC-BY 4.0
+  url: http://creativecommons.org/licenses/by/4.0/deed.nl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-by3
+  is_okd_compliant: true
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC-BY 3.0
+  url: http://creativecommons.org/licenses/by/3.0/nl/legalcode
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: cc-by-sa
+  is_okd_compliant: true
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC-BY-SA
+  url: http://creativecommons.org/licenses/by-sa/4.0/deed.nl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: nietopen
+  is_okd_compliant: true
+  maintainer: data.overheid.nl
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Geen open licentie
+  url: http://data.overheid.nl/licenties/geen-open-licentie
+PH:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License not specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+PL:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Brak określonej licencji
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Inne (Otwarte)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Informacje Sektora Publicznego
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Inne (Przypisanie)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Inne (Nie komercyjne)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Inne (Nie Otwarte)
+  url: ''
+PY:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: No se ha especificado la licencia
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Otra (Abierta)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Otra (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Otra (Atribución)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Cualquiera)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Otra (No comercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Otra (No abierta)
+  url: ''
+RO:
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ODC-PDDL-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence 1.0
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: ODbL-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License 1.0
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: uk-ogl
+  is_generic: false
+  is_okd_compliant: true
+  is_osi_compliant: false
+  license_url: http://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf
+  maintainer: DSOD
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: OGL-ROU-1.0
+  url: http://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf
+SE:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Licens har inte angetts
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Erkännande
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Erkännande Dela Lika
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Annan (grupp)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Annan (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Annan (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Icke-kommersiell
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Annan (Icke kommersiell)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Annan (ej öppen)
+  url: ''
+SG:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License not specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+SK:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Nie je uvedená licencia
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Iné (Otvoriť)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Ostatné (verejná doména)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Ostatné (licencia s priznaním autorstva)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Iné (Nekomerčné)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Ostatné (zatvorená licencia)
+  url: ''
+TT:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License not specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+TW:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 授權類型未指定
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 開放資料共用公共領域貢獻和授權條款 (PDDL)。
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 其他(開放)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 其他(公共領域)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 其他(歸因)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 其他(非商業)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: 其他(非開放)
+  url: ''
+TZ:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License not specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+US:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: License Not Specified
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Public Domain Dedication and Licence (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Open Data Commons Attribution License
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: GNU Free Documentation License
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Open)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-license-specified
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other License Specified
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: us-pd
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: U.S. Government Work
+  url: http://www.usa.gov/publicdomain/label/1.0/
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Public Domain)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Attribution)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: 'True'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Creative Commons Non-Commercial (Any)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Non-Commercial)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: 'False'
+  is_osi_compliant: 'False'
+  maintainer: ''
+  status: active
+  title: Other (Not Open)
+  url: ''
+UY:
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: notspecified
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Licencia No Especificada
+  url: ''
+- domain_content: false
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: odc-uy
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Licencia de DAG de Uruguay
+  url: ''
+- domain_content: true
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other-open
+  is_generic: true
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: ''
+  status: active
+  title: Otra (Open)
+  url: ''
+- domain_content: false
+  domain_data: false
+  domain_software: false
+  family: ''
+  id: other
+  is_generic: true
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: ''
+  osd_conformance: ''
+  status: active
+  title: Otra
+  url: ''
+- domain_content: true
+  domain_data: true
+  domain_software: true
+  family: ''
+  id: CC0-1.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: CC0 1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: CC-BY-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Atribución 4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: ''
+  id: CC-BY-SA-4.0
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Atribución Compartir-Igual 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- domain_content: true
+  domain_data: true
+  domain_software: false
+  family: Creative Commons
+  id: CC-BY-NC-4.0
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: Creative Commons
+  od_conformance: rejected
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Atribución No Comercial 4.0
+  url: https://creativecommons.org/licenses/by-nc/4.0/
+XK:
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: notspecified
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Licenca nuk është specifikuar
+  url: ''
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-pddl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Public Domain Dedication and License (PDDL)
+  url: http://www.opendefinition.org/licenses/odc-pddl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-odbl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Open Data Commons Open Database License (ODbL)
+  url: http://www.opendefinition.org/licenses/odc-odbl
+- domain_content: 'False'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: odc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Licenca e atributëve të Open Data Commons
+  url: http://www.opendefinition.org/licenses/odc-by
+- domain_content: 'True'
+  domain_data: 'True'
+  domain_software: 'False'
+  family: ''
+  id: cc-zero
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons CCZero
+  url: http://www.opendefinition.org/licenses/cc-zero
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution
+  url: http://www.opendefinition.org/licenses/cc-by
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-by-sa
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Attribution Share-Alike
+  url: http://www.opendefinition.org/licenses/cc-by-sa
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: gfdl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: 'GNU Dokumentimi i Licencës Pa Pagesë '
+  url: http://www.opendefinition.org/licenses/gfdl
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-open
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Tjera (Hape)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-pd
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Tjera (Domena Publike)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-at
+  is_generic: 'True'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: Tjera(Atributet)
+  url: ''
+- domain_content: 'True'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: uk-ogl
+  is_generic: 'False'
+  is_okd_compliant: true
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: approved
+  osd_conformance: not reviewed
+  status: active
+  title: UK Open Government Licence (OGL)
+  url: http://reference.data.gov.uk/id/open-government-licence
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: cc-nc
+  is_generic: 'False'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Creative Commons Non-Commercial (Ndonjë)
+  url: http://creativecommons.org/licenses/by-nc/2.0/
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-nc
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Tjera (Jo-komerciale)
+  url: ''
+- domain_content: 'False'
+  domain_data: 'False'
+  domain_software: 'False'
+  family: ''
+  id: other-closed
+  is_generic: 'True'
+  is_okd_compliant: false
+  is_osi_compliant: false
+  maintainer: ''
+  od_conformance: not reviewed
+  osd_conformance: not reviewed
+  status: active
+  title: Tjera (Pa Hapura)
+  url: ''
