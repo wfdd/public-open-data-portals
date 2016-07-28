@@ -46,13 +46,22 @@ license and in full.
 Where to find the source code if it is made available, regardless of whether
 it's open source.
 
-#### `has_api`
+#### `has_metadata_api`
 
-Whether the portal provides an API.
+Whether the portal provides a dataset metadata API.
 
-#### `api_endpoint`
+#### `metadata_api_endpoint`
 
-The API endpoint, provided it `has_api`.
+The metedata API endpoint, provided it `has_metadata_api`.
+
+#### `has_object_api`
+
+Whether the portal provides an API with direct access to the data.  This
+corresponds to the CKAN `datastore` API, which is not enabled by default.
+
+#### `object_api_endpoint`
+
+The object API endpoint, provided it `has_object_api`.
 
 #### `has_bulk_download`
 
@@ -114,6 +123,14 @@ Date when the row was last updated.
 [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 ## See also
+
+### API docs
+
+* [CKAN](http://docs.ckan.org/en/latest/api/index.html)
+* [DKAN](http://docs.getdkan.com/dkan-documentation/dkan-api)
+* [Socrata](https://dev.socrata.com/docs/endpoints.html)
+
+### Other catalogues
 
 * http://opengeocode.org/opendata/
 * http://dataportals.org/search
