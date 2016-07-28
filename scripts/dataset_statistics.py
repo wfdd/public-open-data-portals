@@ -142,8 +142,8 @@ GROUP BY license''') as json:
 
 
 def gather_country_stats(loop, rows):
-    ckan_apis = {r['country_code']: r['has_api'].partition(';')[0].partition(':')[-1]
-                 for r in rows if '/api/3' in r['has_api']}
+    ckan_apis = {r['country_code']: r['api_endpoint'] for r in rows
+                 if '/api/3' in r['api_endpoint']}
     with aiohttp.ClientSession(connector=
                 aiohttp.TCPConnector(verify_ssl=False, use_dns_cache=True)) \
             as session:

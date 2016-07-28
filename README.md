@@ -41,6 +41,11 @@ The name of the (user-facing) software package the portal is based on, if any.
 Whether the source code has been made publicly available under a free-software
 license and in full.
 
+#### `source_code_url`
+
+Where to find the source code if it is made available, regardless of whether
+it's open source.
+
 #### `has_api`
 
 Whether the portal provides an API.
