@@ -10,9 +10,11 @@ from json.decoder import JSONDecodeError
 from os import environ
 from pathlib import Path
 import traceback as tb
+import typing
 
 import aiohttp
 from logbook import StderrHandler as StderrLogger, error as _error
+import yaml
 
 csv_writer = partial(csv.writer, lineterminator='\n')
 csv_dict_writer = partial(csv.DictWriter, lineterminator='\n')
@@ -90,7 +92,8 @@ def read_csv(filename, has_header=False):
             return tuple(csv.reader(file))
 
 
-async def get_ckan_license_usage(license, api_endpoint, get):
+async def get_ckan_license_usage(license, api_endpoint, get) -> \
+        typing.Tuple[str, int]:
     async with get(api_endpoint + '/action/package_search',
                    params={'q': 'license_id:' + license, 'rows': '0'}) \
             as json:
@@ -98,47 +101,49 @@ async def get_ckan_license_usage(license, api_endpoint, get):
 
 
 @rescue_api_call(())
-async def get_ckan_packages_per_license(licenses, api_endpoint, get):
-    return await asyncio.gather(*(get_ckan_license_usage(i, api_endpoint, get)
+async def get_ckan_packages_per_license(licenses, api_endpoint, get) -> \
+        typing.Union[list, tuple]:
+    return await asyncio.gather(*(get_ckan_license_usage(i['id'], api_endpoint, get)
                                   for i in licenses))
 
 
 @rescue_api_call()
-async def get_ckan_package_counts(country_code, api_endpoint, get):
+async def get_ckan_package_counts(country_code, api_endpoint, get) -> \
+        typing.Union[typing.Tuple[str, int, list, typing.Iterable], None]:
     if country_code == 'US':
         # The 'license_list' action isn't available for the US
         async with get(api_endpoint.replace('/3', '/2') + '/rest/licenses') \
                 as json:
-            licenses = tuple(i['id'] for i in json)
+            licenses = json
     else:
         async with get(api_endpoint + '/action/license_list') as json:
-            licenses = tuple(i['id'] for i in json['result'])
+            licenses = json['result']
 
     async with get(api_endpoint + '/action/package_search', params={'rows': '0'}) \
             as json:
-        total = int(json['result']['count'])
-    per_license = await get_ckan_packages_per_license(licenses, api_endpoint,
-                                                      get)
-    return country_code, total, per_license
+        total_packages = int(json['result']['count'])
+    return country_code, total_packages, licenses, \
+           (await get_ckan_packages_per_license(licenses, api_endpoint, get))
 
 
 @rescue_api_call()
-async def get_cyprus_counts(get):
+async def get_cyprus_counts(get) -> typing.Union[tuple, None]:
     def get(query, _get=get):
         return _get('https://api.morph.io/wfdd/data-gov-cy-scraper/data.json',
                     params={'key': environ['MORPH_API_KEY'], 'query': query})
 
     async with get('SELECT count(*) FROM data WHERE meta__last_updated = '
                    '(SELECT max(meta__last_updated) FROM data)') as json:
-        total, = json
-        total  = total['count(*)']
+        total_packages, = json
+        total_packages  = total_packages['count(*)']
     async with get('''\
 SELECT license, count(license) FROM data
 WHERE meta__last_updated = (SELECT max(meta__last_updated) FROM data)
 GROUP BY license''') as json:
-        per_license = tuple((i['license'], int(i['count(license)']))
-                            for i in json)
-    return 'CY', total, per_license
+        total_per_license = tuple((i['license'], int(i['count(license)']))
+                                  for i in json)
+    return 'CY', total_packages, tuple(l for l, _ in total_per_license), \
+           total_per_license
 
 
 def gather_country_stats(loop, rows):
@@ -148,24 +153,28 @@ def gather_country_stats(loop, rows):
                 aiohttp.TCPConnector(verify_ssl=False, use_dns_cache=True)) \
             as session:
         getter = prep_getter(session)
-        triplets = asyncio.gather(*(get_ckan_package_counts(*i, getter)
-                                    for i in ckan_apis.items()),
-                                  get_cyprus_counts(getter))
-        triplets = loop.run_until_complete(triplets)
-        return tuple(filter(None, triplets))
+        quadruplets = asyncio.gather(*(get_ckan_package_counts(*i, getter)
+                                       for i in ckan_apis.items()),
+                                     get_cyprus_counts(getter))
+        quadruplets = loop.run_until_complete(quadruplets)
+        return tuple(filter(None, quadruplets))
 
 
 def dedupe_licenses(licenses_by_country):
     all_licenses = reduce(set.union,
                           ((n for n, c in v if c > 0)
-                           for v in licenses_by_country.values()),
+                           for *_, v in licenses_by_country),
                           set())
     all_licenses = ((i, i.lower()) for i in sorted(all_licenses, key=str.lower))
-    csv_path = str(Path(__file__).parent/'license_matches.csv')
-    existing_keys = tuple(i for i, _ in read_csv(csv_path))
+    csv_path = str(Path(__file__).parent/'data'/'license_mappings.csv')
+    existing_keys = {k for k, _ in read_csv(csv_path)}
     with open(csv_path, 'a') as file:
         csv_writer(file).writerows((a, b) for a, b in all_licenses
                                    if a not in existing_keys)
+    with open(str(Path(__file__).parent/'data'/'license_details.yaml'), 'w') \
+            as file:
+        yaml.safe_dump({c: l for c, l, _ in licenses_by_country}, file,
+                       allow_unicode=True, default_flow_style=False)
     input('Press any key to continue')  # Pause before reloading the CSV
     return dict(read_csv(csv_path))
 
@@ -180,7 +189,7 @@ def create_licenses_csv(licenses_by_country):
         writer.writeheader()
         writer.writerows({'country_code': k, 'last_updated': today,
                           **{all_licenses[n]: c for n, c in v if c > 0}}
-                         for k, v in sorted(licenses_by_country.items()))
+                         for k, _, v in sorted(licenses_by_country))
 
 
 def update_portals_csv(fields, rows, dataset_totals):
@@ -199,8 +208,8 @@ def update_portals_csv(fields, rows, dataset_totals):
 def main():
     fields, rows = read_csv('portals.csv', has_header=True)
     country_stats = gather_country_stats(asyncio.get_event_loop(), rows)
-    create_licenses_csv({c: l for c, _, l in country_stats})
-    update_portals_csv(fields, rows, {c: t for c, t, _ in country_stats})
+    create_licenses_csv(tuple((c, d, l) for c, _, d, l in country_stats))
+    update_portals_csv(fields, rows, {c: t for c, t, *_ in country_stats})
 
 if __name__ == '__main__':
     with StderrLogger():

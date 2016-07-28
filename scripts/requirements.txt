@@ -1,2 +1,3 @@
 aiohttp==0.22.2
 Logbook==1.0.0
+PyYAML==3.11
