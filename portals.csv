@@ -11,7 +11,7 @@ AO,Angola,,,,,,,,,,,,,,,,,
 AQ,Antarctica,N/A,,,,,,,,,,,,,,,,2016-07-23
 AR,Argentina,http://www.datos.gob.ar/,CKAN,yes,https://github.com/gobabiertoAR,yes,http://www.datos.gob.ar/api/3,yes,=,,8,en:Ministry for Modernization;es:Ministerio de Modernización,,,,,,2016-07-29
 AS,American Samoa,N/A,,,,,,,,,,,,,,,,2016-07-23
-AT,Austria,https://www.data.gv.at/,CKAN,older version,https://github.com/datagvat,yes,https://www.data.gv.at/katalog/api/3,no,,,2147,,,,,,,2016-07-28
+AT,Austria,https://www.data.gv.at/,CKAN,yes,https://github.com/datagvat,yes,https://www.data.gv.at/katalog/api/3,no,,,2147,,,,,,,2016-07-29
 AU,Australia,https://data.gov.au/,CKAN,yes,https://github.com/datagovau,yes,https://data.gov.au/api/3,yes,=,,9966,,,,,,,2016-07-29
 AW,Aruba,N/A,,,,,,,,,,,,,,,,2016-07-23
 AX,Åland Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
@@ -21,7 +21,7 @@ BB,Barbados,,,,,,,,,,,,,,,,,
 BD,Bangladesh,,,,,,,,,,,,,,,,,
 BE,Belgium,http://data.gov.be/en,,partially,https://github.com/Fedict/dcattools,,,,,,,,,,,,,2016-07-23
 BF,Burkina Faso,,,,,,,,,,,,,,,,,
-BG,Bulgaria,https://opendata.government.bg/,CKAN,,,yes,https://opendata.government.bg/api/3,yes,=,,801,,,,,,,2016-07-29
+BG,Bulgaria,https://opendata.government.bg/,CKAN,yes,https://github.com/governmentbg/opendata,yes,https://opendata.government.bg/api/3,yes,=,,801,,,,,,,2016-07-29
 BH,Bahrain,,,,,,,,,,,,,,,,,
 BI,Burundi,,,,,,,,,,,,,,,,,
 BJ,Benin,,,,,,,,,,,,,,,,,
@@ -30,14 +30,14 @@ BM,Bermuda,N/A,,,,,,,,,,,,,,,,2016-07-23
 BN,Brunei,https://www.data.gov.bn/,,,,,,,,,,en:E-Government National Centre (EGNC) under the Prime Ministers’ Office,,,,http://www.bt.com.bn/news-national/2014/11/28/towards-online-future-new-egnc-website,,2016-07-29
 BO,Bolivia,,,,,,,,,,,,,,,,,
 BQ,Caribbean Netherlands,N/A,,,,,,,,,,,,,,,,2016-07-23
-BR,Brazil,http://dados.gov.br/,CKAN,,,yes,http://dados.gov.br/api/3,no,,,1126,,,,,,,2016-07-29
+BR,Brazil,http://dados.gov.br/,CKAN,in part,https://github.com/dadosgovbr,yes,http://dados.gov.br/api/3,no,,,1126,,,,,,,2016-07-29
 BS,Bahamas,,,,,,,,,,,,,,,,,
 BT,Bhutan,,,,,,,,,,,,,,,,,
 BV,Bouvet Island,N/A,,,,,,,,,,,,,,,,2016-07-23
 BW,Botswana,,,,,,,,,,,,,,,,,
 BY,Belarus,,,,,,,,,,,,,,,,,
 BZ,Belize,,,,,,,,,,,,,,,,,
-CA,Canada,http://open.canada.ca/en/open-data,CKAN,,,yes,http://open.canada.ca/data/en/api/3,no,,,120983,,,,,,,2016-07-28
+CA,Canada,http://open.canada.ca/en/open-data,CKAN,,https://github.com/open-data,yes,http://open.canada.ca/data/en/api/3,no,,,120983,,,,,,,2016-07-29
 CC,Cocos (Keeling) Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 CD,Congo - Kinshasa,,,,,,,,,,,,,,,,,
 CF,Central African Republic,,,,,,,,,,,,,,,,,
@@ -73,7 +73,7 @@ ER,Eritrea,,,,,,,,,,,,,,,,,
 ES,Spain,http://datos.gob.es/,,,,,,,,,,,,,,,,2016-07-23
 ET,Ethiopia,,,,,,,,,,,,,,,,,
 EU,European Union,https://data.europa.eu/euodp/en/data/,,,,,,,,,,,,,,,,2016-07-23
-FI,Finland,https://www.avoindata.fi/,CKAN,,,yes,https://www.avoindata.fi/data/api/3,yes,=,,1476,en:Ministry of Finance;fi:valtiovarainministeriö,,,,,,2016-07-29
+FI,Finland,https://www.avoindata.fi/,CKAN,,https://github.com/yhteentoimivuuspalvelut,yes,https://www.avoindata.fi/data/api/3,yes,=,,1476,en:Ministry of Finance;fi:valtiovarainministeriö,,,,,,2016-07-29
 FJ,Fiji,,,,,,,,,,,,,,,,,
 FK,Falkland Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 FM,Micronesia,,,,,,,,,,,,,,,,,
