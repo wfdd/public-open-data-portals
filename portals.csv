@@ -56,8 +56,8 @@ CV,Cape Verde,,,,,,,,,,,,,,,,,
 CW,Curaçao,N/A,,,,,,,,,,,,,,,,2016-07-23
 CX,Christmas Island,N/A,,,,,,,,,,,,,,,,2016-07-23
 CY,Cyprus,http://www.data.gov.cy/,In-house,no,,no,,,,no,965,"en:Public Administration and Personnel Department (PAPD), Ministry of Finance;el:Τμήμα Δημόσιας Διοίκησης και Προσωπικού (ΤΔΔΠ) του Υπουργείου Οικονομικών",no,yes:Deloitte was appointed by the European Commission ‘to … guide the departments in order to publish their data on the National Open Data Portal’ [http://www2.deloitte.com/cy/en/pages/about-deloitte/articles/innovating-with-open-data.html],,,,2016-07-28
-CZ,Czech Republic,http://opendata.cz/,CKAN,,,yes,http://linked.opendata.cz/api/3,yes,=,,73,,,,,,,2016-07-28
 DE,Germany,https://www.govdata.de/,CKAN blend,yes,https://github.com/GovDataOfficial,yes,https://www.govdata.de/ckan/api/3,,,"daily metadata dump, see https://www.govdata.de/daten/-/details/govdata-metadatenkatalog",9680,,,,,,,2016-07-28
+CZ,Czech Republic,,,,,,,,,,,,,,,,,
 DG,Diego Garcia,N/A,,,,,,,,,,,,,,,,2016-07-23
 DJ,Djibouti,,,,,,,,,,,,,,,,,
 DK,Denmark,http://www.portal.opendata.dk/,CKAN,,,yes,http://www.portal.opendata.dk/api/3,yes,=,,620,Various local authorities,,,,,,2016-07-28
