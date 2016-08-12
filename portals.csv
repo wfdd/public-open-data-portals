@@ -42,7 +42,7 @@ CC,Cocos (Keeling) Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 CD,Congo - Kinshasa,,,,,,,,,,,,,,,,,
 CF,Central African Republic,,,,,,,,,,,,,,,,,
 CG,Congo - Brazzaville,,,,,,,,,,,,,,,,,
-CH,Switzerland,https://opendata.swiss/,CKAN,partially,https://github.com/opendata-swiss,yes,https://opendata.swiss/api/3,no,,,1197,,,,,,,2016-07-29
+CH,Switzerland,https://opendata.swiss/,CKAN,yes,https://github.com/ogdch;https://github.com/opendata-swiss,yes,https://opendata.swiss/api/3,no,,,1197,,,,,,,2016-07-29
 CI,Côte d’Ivoire,,,,,,,,,,,,,,,,,
 CK,Cook Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 CL,Chile,http://datos.gob.cl/,CKAN,,,yes,http://datos.gob.cl/api/3,yes,=,,2520,"en:Department of Modernization and Digital Governance, Ministry General Secretariat of the Presidency;es:Unidad de Modernización y Gobierno Digital, Ministerio Secretaría General de la Presidencia",,,,,,2016-07-29
