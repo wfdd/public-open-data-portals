@@ -128,6 +128,8 @@ Date when the row was last updated.
 
 * [CKAN](http://docs.ckan.org/en/latest/api/index.html)
 * [DKAN](http://docs.getdkan.com/dkan-documentation/dkan-api)
+* [Knoema](https://knoema.com/dev/explorer)
+* OpenFed?
 * [Socrata](https://dev.socrata.com/docs/endpoints.html)
 
 ### Other catalogues
