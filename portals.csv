@@ -1,7 +1,7 @@
 country_code,country_name,url,software_platform,is_open_source,source_code_url,has_metadata_api,metadata_api_endpoint,has_object_api,object_api_endpoint,has_bulk_download,total_datasets,presiding_body,outsourced_development,received_consulting,date_launched,resources,notes,last_updated
 AC,Ascension Island,N/A,,,,,,,,,,,,,,,,2016-07-23
 AD,Andorra,,,,,,,,,,,,,,,,,
-AE,United Arab Emirates,http://opendata.fcsa.gov.ae/,,no,,no,,,,no,,en:Federal Competitiveness and Statistics Authority;ar:الهيئة الاتحادية للتنافسية والإحصاء,,,,,,2016-07-23
+AE,United Arab Emirates,http://opendata.fcsa.gov.ae/,Knoema,no,,yes,https://knoema.com/api/1.0/,yes,=,no,,en:Federal Competitiveness and Statistics Authority;ar:الهيئة الاتحادية للتنافسية والإحصاء,,,,,,2016-08-24
 AF,Afghanistan,,,,,,,,,,,,,,,,,
 AG,Antigua & Barbuda,,,,,,,,,,,,,,,,,
 AI,Anguilla,N/A,,,,,,,,,,,,,,,,2016-07-23
@@ -19,7 +19,7 @@ AZ,Azerbaijan,,,,,,,,,,,,,,,,,
 BA,Bosnia & Herzegovina,,,,,,,,,,,,,,,,,
 BB,Barbados,,,,,,,,,,,,,,,,,
 BD,Bangladesh,,,,,,,,,,,,,,,,,
-BE,Belgium,http://data.gov.be/en,,partially,https://github.com/Fedict/dcattools,,,,,,,,,,,,,2016-07-23
+BE,Belgium,http://data.gov.be/en,OpenFed,yes,https://github.com/Fedict;https://www.drupal.org/project/openfed,,,,,metadata dump: https://github.com/fedict/dcat,,,,,,,,2016-08-24
 BF,Burkina Faso,,,,,,,,,,,,,,,,,
 BG,Bulgaria,https://opendata.government.bg/,CKAN,yes,https://github.com/governmentbg/opendata,yes,https://opendata.government.bg/api/3,yes,=,,801,,,,,,,2016-07-29
 BH,Bahrain,,,,,,,,,,,,,,,,,
@@ -27,7 +27,7 @@ BI,Burundi,,,,,,,,,,,,,,,,,
 BJ,Benin,,,,,,,,,,,,,,,,,
 BL,St. Barthélemy,N/A,,,,,,,,,,,,,,,,2016-07-23
 BM,Bermuda,N/A,,,,,,,,,,,,,,,,2016-07-23
-BN,Brunei,https://www.data.gov.bn/,,,,,,,,,,en:E-Government National Centre (EGNC) under the Prime Ministers’ Office,,,,http://www.bt.com.bn/news-national/2014/11/28/towards-online-future-new-egnc-website,,2016-07-29
+BN,Brunei,https://www.data.gov.bn/,Likely in-house,,,no,,no,,,,en:E-Government National Centre (EGNC) under the Prime Ministers’ Office,,,,http://www.bt.com.bn/news-national/2014/11/28/towards-online-future-new-egnc-website,,2016-08-24
 BO,Bolivia,,,,,,,,,,,,,,,,,
 BQ,Caribbean Netherlands,N/A,,,,,,,,,,,,,,,,2016-07-23
 BR,Brazil,http://dados.gov.br/,CKAN,in part,https://github.com/dadosgovbr,yes,http://dados.gov.br/api/3,no,,,1126,,,,,,,2016-07-29
@@ -66,7 +66,7 @@ DO,Dominican Republic,,,,,,,,,,,,,,,,,
 DZ,Algeria,,,,,,,,,,,,,,,,,
 EA,Ceuta & Melilla,N/A,,,,,,,,,,,,,,,,2016-07-23
 EC,Ecuador,http://sni.gob.ec/datosabiertos,CKAN,,,yes,http://catalogo.datosabiertos.gob.ec/api/3,yes,=,,67,,,,,,,2016-07-29
-EE,Estonia,http://www.opendata.ee/,,,,,,,,,,,,,,,,2016-07-23
+EE,Estonia,https://opendata.riik.ee/,CKAN,,,yes,https://opendata.riik.ee/api/3,,,,,et:Majandus-ja Kommunikatsiooniministeerium;en:Ministry of Economic Affairs and Communications,,possibly as it is apparently funded by the EU,,,,2016-08-24
 EG,Egypt,,,,,,,,,,,,,,,,,
 EH,Western Sahara,,,,,,,,,,,,,,,,,
 ER,Eritrea,,,,,,,,,,,,,,,,,
@@ -94,22 +94,22 @@ GP,Guadeloupe,N/A,,,,,,,,,,,,,,,,2016-07-23
 GQ,Equatorial Guinea,,,,,,,,,,,,,,,,,
 GR,Greece,http://www.data.gov.gr/,CKAN,no,,yes,http://www.data.gov.gr/api/3,yes,=,,2096,en:Ministry of the Interior and Administrative Reconstruction;el:Yπουργείο Εσωτερικών και Διοικητικής Ανασυγκρότησης,,,,,,2016-07-29
 GS,South Georgia & South Sandwich Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
-GT,Guatemala,http://www.mineco.gob.gt/datos-abiertos,,,,,,,,,,,,,,,Appears to be offline,2016-07-23
+GT,Guatemala,,,,,,,,,,,,,,,,,2016-08-24
 GU,Guam,N/A,,,,,,,,,,,,,,,,2016-07-23
 GW,Guinea-Bissau,,,,,,,,,,,,,,,,,
 GY,Guyana,,,,,,,,,,,,,,,,,
-HK,Hong Kong SAR China,https://data.gov.hk/,,,,,,,,,,en:Office of the Government Chief Information Officer,,,,,,2016-07-23
+HK,Hong Kong SAR China,https://data.gov.hk/,CKAN,,,yes,https://data.gov.hk/en-data/api/3,,,,,yue:政府資訊科技總監辦公室;en:Office of the Government Chief Information Officer,,,,,,2016-08-24
 HM,Heard & McDonald Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 HN,Honduras,,,,,,,,,,,,,,,,,
 HR,Croatia,https://data.gov.hr/,CKAN,,,yes,https://data.gov.hr/api/3,no,,,258,en:Ministry of Public Administration;hr:Ministarstvo uprave,,,,,,2016-07-29
 HT,Haiti,,,,,,,,,,,,,,,,,
 HU,Hungary,,,,,,,,,,,,,,,,,
 IC,Canary Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
-ID,Indonesia,http://data.go.id/,,,,,,,,,,,,,,,,2016-07-23
+ID,Indonesia,http://data.go.id/,CKAN,,,yes,http://data.go.id/api/3,,,,,,,,,,,2016-08-24
 IE,Ireland,https://data.gov.ie/data,CKAN,no,,yes,https://data.gov.ie/api/3,no,,,4293,"en:Government Reform Unit, Department of Public Expenditure and Reform",,,,,,2016-07-29
 IL,Israel,https://data.gov.il/,CKAN,,,,,,,,,,,,,,,2016-07-24
 IM,Isle of Man,N/A,,,,,,,,,,,,,,,,2016-07-23
-IN,India,https://data.gov.in/,,,,,,,,,,,,,,,,2016-07-23
+IN,India,https://data.gov.in/,Open Government Platform?,,https://github.com/opengovplatform,,,,,,,,,,,,Unclear if they still use their ‘Open Government Platform’; their GitHub repo hasn’t been updated since 2013,2016-08-24
 IO,British Indian Ocean Territory,N/A,,,,,,,,,,,,,,,,2016-07-23
 IQ,Iraq,,,,,,,,,,,,,,,,,
 IR,Iran,,,,,,,,,,,,,,,,,
@@ -118,8 +118,8 @@ IT,Italy,http://www.dati.gov.it/,DKAN,,,yes (CKAN subset),http://www.dati.gov.it
 JE,Jersey,N/A,,,,,,,,,,,,,,,,2016-07-23
 JM,Jamaica,http://www.data.gov.jm/,DKAN,,,yes (CKAN subset),http://www.data.gov.jm/api/3,yes (CKAN subset),=,of all the metadata: http://www.data.gov.jm/data.json,,,,,,,,2016-07-28
 JO,Jordan,,,,,,,,,,,,,,,,,
-JP,Japan,http://www.data.go.jp/,,,,,,,,,,,,,,,,2016-07-23
-KE,Kenya,https://opendata.go.ke/,Socrata,no,,yes,,yes,,,,en:ICT Authority,,,,,,2016-07-28
+JP,Japan,http://www.data.go.jp/,CKAN,,,,,,,,,,,,,,,2016-07-23
+KE,Kenya,https://opendata.go.ke/,Socrata,no,,yes,http://www.data.go.jp/data/api/3,yes,,,,en:ICT Authority,,,,,,2016-08-24
 KG,Kyrgyzstan,,,,,,,,,,,,,,,,,
 KH,Cambodia,,,,,,,,,,,,,,,,,
 KI,Kiribati,,,,,,,,,,,,,,,,,
@@ -137,18 +137,18 @@ LI,Liechtenstein,,,,,,,,,,,,,,,,,
 LK,Sri Lanka,https://www.data.gov.lk/,CKAN,,,yes,https://www.data.gov.lk/api/3,yes,=,,89,en:Information and Communication Technology Agency (ICTA),,,,,,2016-07-29
 LR,Liberia,,,,,,,,,,,,,,,,,
 LS,Lesotho,,,,,,,,,,,,,,,,,
-LT,Lithuania,http://opendata.gov.lt/index.php?vars=/public/public/search,,,,,,,,,,,,,,,,2016-07-23
+LT,Lithuania,http://opendata.gov.lt/index.php?vars=/public/public/search,Likely in-house,,,,,,,,,,,,,,,2016-08-24
 LU,Luxembourg,https://data.public.lu/en/,udata,yes,https://github.com/opendatalu,yes,https://data.public.lu/api/1/,yes,=,,,,,,,,,2016-07-28
 LV,Latvia,,,,,,,,,,,,,,,,,
 LY,Libya,,,,,,,,,,,,,,,,,
-MA,Morocco,http://data.gov.ma/fr,,,,,,,,,,,,,,,,2016-07-23
+MA,Morocco,http://data.gov.ma/fr,CKAN,,,yes,http://www.data.gov.ma/data/api/3,,,,,,,,,,,2016-08-24
 MC,Monaco,,,,,,,,,,,,,,,,,
 MD,Moldova,http://data.gov.md/,CKAN,,,yes,http://data.gov.md/ckan/api/3,yes,=,,911,,,,,,,2016-07-29
 ME,Montenegro,,,,,,,,,,,,,,,,,
 MF,St. Martin,N/A,,,,,,,,,,,,,,,,2016-07-23
 MG,Madagascar,,,,,,,,,,,,,,,,,
 MH,Marshall Islands,,,,,,,,,,,,,,,,,
-MK,Macedonia,http://www.otvorenipodatoci.gov.mk/,,,,,,,,,,en:Ministry of Information Society and Administration;mk:Министерство за информатичко општество и администрација,,,,https://theodi.org/case-studies/case-study-a-profile-of-open-data-initiatives-in-macedonia,,2016-07-23
+MK,Macedonia,http://www.otvorenipodatoci.gov.mk/,Likely in-house,,,,,,,,,en:Ministry of Information Society and Administration;mk:Министерство за информатичко општество и администрација,,,,https://theodi.org/case-studies/case-study-a-profile-of-open-data-initiatives-in-macedonia,,2016-08-24
 ML,Mali,,,,,,,,,,,,,,,,,
 MM,Myanmar (Burma),,,,,,,,,,,,,,,,,
 MN,Mongolia,,,,,,,,,,,,,,,http://www.slideshare.net/amarsanaag1/towards-open-data-development-in-mongolia,,2016-07-23
@@ -157,7 +157,7 @@ MP,Northern Mariana Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 MQ,Martinique,N/A,,,,,,,,,,,,,,,,2016-07-23
 MR,Mauritania,,,,,,,,,,,,,,,,,
 MS,Montserrat,N/A,,,,,,,,,,,,,,,,2016-07-23
-MT,Malta,http://data.gov.mt/,,,,,,,,,,,,,,,,2016-07-23
+MT,Malta,http://data.gov.mt/,N/A,,,,,,,,,,,,,,Not an actual portal; requires login to download datasets,2016-08-24
 MU,Mauritius,,,,,,,,,,,,,,,,,
 MV,Maldives,,,,,,,,,,,,,,,,,
 MW,Malawi,,,,,,,,,,,,,,,,,
@@ -175,10 +175,10 @@ NO,Norway,http://data.norge.no/,,,,yes,http://hotell.difi.no/api/,,,,,en:Agency 
 NP,Nepal,,,,,,,,,,,,,,,,,
 NR,Nauru,,,,,,,,,,,,,,,,,
 NU,Niue,N/A,,,,,,,,,,,,,,,,2016-07-23
-NZ,New Zealand,https://data.govt.nz/,,,,no,,,,CSV and RSS export of all datasets’ metadata,,en:Department of Internal Affairs;mi:Te Tari Taiwhenua,,,,,,2016-07-24
+NZ,New Zealand,https://data.govt.nz/,Likely in-house,,,no,,,,CSV and RSS export of all datasets’ metadata,,en:Department of Internal Affairs;mi:Te Tari Taiwhenua,,,,,"Transitioning to CKAN, see http://beta.data.govt.nz/",2016-08-24
 OM,Oman,,,,,,,,,,,,,,,,,
 PA,Panama,,,,,,,,,,,,,,,,,
-PE,Peru,http://www.datosabiertos.gob.pe/,,,,,,,,,,,,,,,,2016-07-23
+PE,Peru,http://www.datosabiertos.gob.pe/,Likely in-house,,,,,,,,,,,,,,,2016-08-24
 PF,French Polynesia,N/A,,,,,,,,,,,,,,,,2016-07-23
 PG,Papua New Guinea,,,,,,,,,,,,,,,,,
 PH,Philippines,http://data.gov.ph/,CKAN,,,yes,http://data.gov.ph/catalogue/api/3,yes,=,,827,Task force comprising several agencies,,,,,,2016-07-29
@@ -205,7 +205,7 @@ SD,Sudan,,,,,,,,,,,,,,,,,
 SE,Sweden,http://oppnadata.se/,CKAN,,,yes,http://oppnadata.se/api/3,no,,,147,,,,,,,2016-07-29
 SG,Singapore,https://data.gov.sg/,CKAN,,,yes,https://data.gov.sg/api/3,no,,,638,,,,,,,2016-07-29
 SH,St. Helena,N/A,,,,,,,,,,,,,,,,2016-07-23
-SI,Slovenia,http://nio.gov.si/nio/,,,,no,,,,,,,,,,,,2016-07-24
+SI,Slovenia,http://nio.gov.si/nio/,Custom,,,no,,,,,,,,,,,,2016-08-24
 SJ,Svalbard & Jan Mayen,N/A,,,,,,,,,,,,,,,,2016-07-23
 SK,Slovakia,https://data.gov.sk/,CKAN,,,yes,https://data.gov.sk/api/3,yes,=,,969,,,,,,,2016-07-29
 SL,Sierra Leone,http://opendata.gov.sl/,DKAN,,,,,,,,,,,,,http://www.nucivic.com/dkan-launch-sierra-leone/,Appears to be offline,2016-07-23
@@ -224,12 +224,12 @@ TC,Turks & Caicos Islands,N/A,,,,,,,,,,,,,,,,2016-07-23
 TD,Chad,,,,,,,,,,,,,,,,,
 TF,French Southern Territories,N/A,,,,,,,,,,,,,,,,2016-07-23
 TG,Togo,,,,,,,,,,,,,,,,,
-TH,Thailand,https://data.go.th/,,,,,,,,,,en:Electronic Government Agency (Public Organization) (EGA);th:สำนักงานรัฐบาลอิเล็กทรอนิกส์ (องค์การมหาชน) (สรอ.),,,,,,2016-07-23
+TH,Thailand,https://data.go.th/,Likely in-house,,,,,,,,,en:Electronic Government Agency (Public Organization) (EGA);th:สำนักงานรัฐบาลอิเล็กทรอนิกส์ (องค์การมหาชน) (สรอ.),,,,,,2016-08-24
 TJ,Tajikistan,,,,,,,,,,,,,,,,,
 TK,Tokelau,N/A,,,,,,,,,,,,,,,,2016-07-23
 TL,Timor-Leste,,,,,,,,,,,,,,,,,
 TM,Turkmenistan,,,,,,,,,,,,,,,,,
-TN,Tunisia,http://www.data.gov.tn/,,,,,,,,,,,,,,,Dormant?,2016-07-23
+TN,Tunisia,http://www.data.gov.tn/,Likely in-house,,,,,,,,,,,,,,Dormant?,2016-08-24
 TO,Tonga,,,,,,,,,,,,,,,,,
 TR,Turkey,,,,,,,,,,,,,,,,,
 TT,Trinidad & Tobago,http://data.gov.tt/,CKAN,,,yes,http://data.gov.tt/api/3,yes,=,,10,,,,,,Dormant?,2016-07-29
