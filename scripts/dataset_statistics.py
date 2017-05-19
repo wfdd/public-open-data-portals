@@ -2,9 +2,8 @@
 """Collect dataset statistics from CKAN APIs."""
 
 import asyncio
-import csv
 import datetime as dt
-from functools import partial, reduce, wraps
+from functools import reduce, wraps
 import inspect
 from json.decoder import JSONDecodeError
 from os import environ
@@ -16,8 +15,7 @@ import aiohttp
 from logbook import StderrHandler as StderrLogger, error as _error
 import yaml
 
-csv_writer = partial(csv.writer, lineterminator='\n')
-csv_dict_writer = partial(csv.DictWriter, lineterminator='\n')
+from utils import csv_writer, csv_dict_writer, read_csv
 
 
 def prep_getter(session, sem_value=20):
@@ -82,14 +80,6 @@ def rescue_api_call(return_value=None):
         return wraps(fn)(_prep_log_wrapper({**globals(), **locals()},
                                            inspect.iscoroutinefunction(fn)))
     return decorate
-
-def read_csv(filename, has_header=False):
-    with open(filename) as file:
-        if has_header:
-            fields = next(csv.reader(file))
-            return fields, tuple(csv.DictReader(file, fields))
-        else:
-            return tuple(csv.reader(file))
 
 
 async def get_ckan_license_usage(license, api_endpoint, get) -> \
